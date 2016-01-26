@@ -5,3 +5,5 @@ license 'all_rights'
 description 'Installs/Configures iat-cookbook'
 long_description 'Installs/Configures iat-cookbook'
 version '0.1.0'
+
+depends 'httpd',  '~> 0.3'
